@@ -1,5 +1,5 @@
 :root {
-    --alf-green: #4dae50;
+    --alf-green: pink;
     --alf-beige: #efe4b0;
 }
 
@@ -33,7 +33,7 @@ body {
     align-items: center;
     flex-direction: column;
     width: 100vw;
-    height: 100vh;
+    height: 200vh;
     overscroll-behavior-y: none;
 }
 
@@ -459,4 +459,39 @@ body {
 
 #gamepad-list li:hover {
     background-color: #ddd;
+}
+
+#vision-container {
+    width: 48vw;
+    height: 27vw;
+    align-items: center;
+    border-radius: 2vw;
+}
+
+#url-input {
+    margin-top: 1vw;
+    width: 48vw;
+    height: 5vw;
+    font-size: 2vw;
+    border-radius: 1vw;
+    border: none;
+    padding: 0.5vw;
+    color:black;
+}
+#overlay {
+    height: 70vh;
+    width: 51vw;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+#load-page-button {
+    background: grey;
+    width: 48vw;
+    height: 5vw;
+    border-radius: 1vw;
+    margin: 1vw;
+    font-size: 2vw;
 }

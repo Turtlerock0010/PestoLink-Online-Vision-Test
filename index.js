@@ -926,3 +926,16 @@ const keyToNum = {
     NumpadStar: 104,
     NumpadSubtract: 105,
 };
+
+function loadIframe() {
+    var inputElement = document.getElementById("url-input");
+    var url = inputElement.value;
+
+    var iframeElement = document.getElementById("vision-container");
+
+    if (url) { 
+        iframeElement.src = url;
+    } else {
+        alert("Please enter a URL.");
+    }
+}
